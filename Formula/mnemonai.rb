@@ -24,6 +24,6 @@ class Mnemonai < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("\#{bin}/mnemonai --version")
+    assert_match version.to_s, shell_output("#{bin}/mnemonai --version")
   end
 end
