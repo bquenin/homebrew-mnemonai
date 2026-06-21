@@ -1,22 +1,22 @@
 class Mnemonai < Formula
   desc "Universal AI coding conversation history browser"
   homepage "https://github.com/bquenin/mnemonai"
-  version "0.12.2"
+  version "0.12.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bquenin/mnemonai/releases/download/v0.12.2/mnemonai-darwin-arm64.tar.gz"
-      sha256 "53b031cf8c1e2f57cc12cca21a77179cb9a9a48d84dbcbb52e7fcfa52e0d4333"
+      url "https://github.com/bquenin/mnemonai/releases/download/v0.12.3/mnemonai-darwin-arm64.tar.gz"
+      sha256 "14826c622cb7c59815f9cbb80b6a3025b4fe0c0a0189aeead27c815c88b4fb6f"
     else
-      url "https://github.com/bquenin/mnemonai/releases/download/v0.12.2/mnemonai-darwin-amd64.tar.gz"
-      sha256 "86f138e94ade374fab1bd13c6589599a17c98acda9883dd0ce7cf94252692eb5"
+      url "https://github.com/bquenin/mnemonai/releases/download/v0.12.3/mnemonai-darwin-amd64.tar.gz"
+      sha256 "140f5c3b2666d7b9c82c226fb357e9addf6676bcb06fb7fb8d9fbf51af656b63"
     end
   end
 
   on_linux do
-    url "https://github.com/bquenin/mnemonai/releases/download/v0.12.2/mnemonai-linux-amd64.tar.gz"
-    sha256 "4189bbc55e211c54af886e831a66a14ae913ae246d83850e71dce1211bbdf37a"
+    url "https://github.com/bquenin/mnemonai/releases/download/v0.12.3/mnemonai-linux-amd64.tar.gz"
+    sha256 "3b1bf5b86cc44f1351e0816c58a1ca4e76a5a81d57d67d77b194ab70a9f4958a"
   end
 
   def install
